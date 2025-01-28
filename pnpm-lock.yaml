@@ -32,6 +32,9 @@ importers:
       '@storybook/test':
         specifier: ^8.5.2
         version: 8.5.2(storybook@8.5.2)
+      chromatic:
+        specifier: ^11.25.1
+        version: 11.25.1
       prop-types:
         specifier: ^15.8.1
         version: 15.8.1
