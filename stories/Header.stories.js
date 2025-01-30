@@ -28,7 +28,11 @@ export const LoggedIn = {
     const canvas = within(canvasElement);
 
     step("It displays the name of the user", () => {
-      expect(canvas.getByText("Welcome, Jane Doe!")).toBeInTheDocument();
+      expect(
+        canvas.getByText(
+          (content, element) => element.innerText === "Welcome, Jane Doe!",
+        ),
+      ).toBeInTheDocument();
     });
   },
 };
