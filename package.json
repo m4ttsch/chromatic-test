@@ -25,6 +25,6 @@
     "@storybook/test-runner": "^0.21.0",
     "chromatic": "^11.25.1",
     "prop-types": "^15.8.1",
-    "storybook": "^8.5.2"
+    "storybook": "^8.6.17"
   }
 }
